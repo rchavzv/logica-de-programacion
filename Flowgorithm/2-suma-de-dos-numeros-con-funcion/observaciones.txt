@@ -1,0 +1,2 @@
+la función ToString() convierte un numero en una cadena de texto, estas funciones las podemos encontrar en la documentación del Flowgorithm
+http://www.flowgorithm.org/documentation/language/intrinsic-functions.html
