@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rchav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-17 10:49:48 p. m."/>
+        <attribute name="created" value="cmNoYXY7UkNIQVZaVjsyMDI1LTAyLTE3OzEwOjM0OjE3IHAuIG0uOzI1NDc="/>
+        <attribute name="edited" value="cmNoYXY7UkNIQVZaVjsyMDI1LTAyLTE3OzEwOjQ5OjQ4IHAuIG0uOzE7MjY2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;inserta el primer numero&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;inserta el segundo numero&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Sumando&#161;&quot;" newline="True"/>
+            <assign variable="sum" expression="a+b"/>
+            <output expression="&quot;El resultado es&quot;" newline="True"/>
+            <output expression="Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
+
+comentario
+
+flowgorithm es un programa excelente para la creacion de pseudocodigo y poder exportarlo a los diferentes lenguajes de programacion y una buena manera practica junto con el libro electronico con distintos ejemplos y ejercicios de programacion para entender la logica que se requiere al momento de especializarse o en un lenguaje en especifico, a pesar de que es un tanto complicado de entender el libro al estar mezclado en italiano como en ingles, una vez que entiendes la estructura de los ejemplos es sencillo, ahora solo faltaria practicar mas y conocer la sintaxis que diferencian en cada lenguaje con el objetivo de especializarse en el lenguaje que elegiremos
