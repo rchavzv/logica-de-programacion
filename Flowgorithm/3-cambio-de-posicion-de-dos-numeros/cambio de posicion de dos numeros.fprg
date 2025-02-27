@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rchav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-27 12:02:15 a. m."/>
+        <attribute name="created" value="cmNoYXY7UkNIQVZaVjsyMDI1LTAyLTI2OzExOjQyOjMxIHAuIG0uOzI1NDM="/>
+        <attribute name="edited" value="cmNoYXY7UkNIQVZaVjsyMDI1LTAyLTI3OzEyOjAyOjE1IGEuIG0uOzE7MjYzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter first number&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter second number&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Run swap!&quot;" newline="True"/>
+            <assign variable="temp" expression="a"/>
+            <assign variable="a" expression="b"/>
+            <assign variable="b" expression="temp"/>
+            <output expression="&quot;Now first number is &quot; &amp; a" newline="True"/>
+            <output expression="&quot;Now second number is &quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
